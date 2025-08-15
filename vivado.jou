@@ -1,0 +1,27 @@
+#-----------------------------------------------------------
+# Vivado v2024.2 (64-bit)
+# SW Build 5239630 on Fri Nov 08 22:35:27 MST 2024
+# IP Build 5239520 on Sun Nov 10 16:12:51 MST 2024
+# SharedData Build 5239561 on Fri Nov 08 14:39:27 MST 2024
+# Start of session at: Thu Aug 14 18:36:19 2025
+# Process ID         : 15096
+# Current directory  : D:/Project/JESD204B
+# Command line       : vivado.exe -gui_launcher_event rodinguilauncherevent20400 D:\Project\JESD204B\JESD204B.xpr
+# Log file           : D:/Project/JESD204B/vivado.log
+# Journal file       : D:/Project/JESD204B\vivado.jou
+# Running On         : HP-YD
+# Platform           : Windows Server 2016 or Windows 10
+# Operating System   : 26100
+# Processor Detail   : AMD Ryzen 5 4600H with Radeon Graphics         
+# CPU Frequency      : 2994 MHz
+# CPU Physical cores : 6
+# CPU Logical cores  : 12
+# Host memory        : 16495 MB
+# Swap memory        : 5368 MB
+# Total Virtual      : 21864 MB
+# Available Virtual  : 8119 MB
+#-----------------------------------------------------------
+start_gui
+open_project D:/Project/JESD204B/JESD204B.xpr
+update_compile_order -fileset sources_1
+reset_run synth_1
