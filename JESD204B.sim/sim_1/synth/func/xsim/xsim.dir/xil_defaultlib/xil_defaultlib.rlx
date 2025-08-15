@@ -1,0 +1,13 @@
+0.7
+2020.2
+Nov  8 2024
+22:36:57
+D:/Project/JESD204B/JESD204B.sim/sim_1/synth/func/xsim/clk_func_synth.v,1748601694,verilog,,D:/Project/JESD204B/JESD204B.srcs/sources_1/new/DATA_LINK.v,,LMFC_CLK;glbl,,,,,,,,
+D:/Project/JESD204B/JESD204B.srcs/sim_1/new/clk.v,1748599164,verilog,,,,clk,,,,,,,,
+D:/Project/JESD204B/JESD204B.srcs/sources_1/new/DATA_LINK.v,1748507991,verilog,,D:/Project/JESD204B/JESD204B.srcs/sources_1/new/DESER.v,,DATA_LINK,,,,,,,,
+D:/Project/JESD204B/JESD204B.srcs/sources_1/new/DESER.v,1748599569,verilog,,D:/Project/JESD204B/JESD204B.srcs/sources_1/new/RX_DATA_LINK.v,,DESER,,,,,,,,
+D:/Project/JESD204B/JESD204B.srcs/sources_1/new/RX_DATA_LINK.v,1748596937,verilog,,D:/Project/JESD204B/JESD204B.srcs/sources_1/new/RX_LMFC_CLK.v,,RX_DATA_LINK,,,,,,,,
+D:/Project/JESD204B/JESD204B.srcs/sources_1/new/RX_LMFC_CLK.v,1748430881,verilog,,D:/Project/JESD204B/JESD204B.srcs/sources_1/new/RX_TRANSPORT.v,,RX_LMFC_CLK,,,,,,,,
+D:/Project/JESD204B/JESD204B.srcs/sources_1/new/RX_TRANSPORT.v,1748429773,verilog,,D:/Project/JESD204B/JESD204B.srcs/sources_1/new/SER.v,,RX_TRANSPORT,,,,,,,,
+D:/Project/JESD204B/JESD204B.srcs/sources_1/new/SER.v,1748596071,verilog,,D:/Project/JESD204B/JESD204B.srcs/sources_1/new/TRANSPORT.v,,SER,,,,,,,,
+D:/Project/JESD204B/JESD204B.srcs/sources_1/new/TRANSPORT.v,1747983745,verilog,,D:/Project/JESD204B/JESD204B.srcs/sim_1/new/clk.v,,TRANSPORT,,,,,,,,

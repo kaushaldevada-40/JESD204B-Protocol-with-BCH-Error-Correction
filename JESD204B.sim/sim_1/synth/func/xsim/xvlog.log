@@ -1,0 +1,19 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Project/JESD204B/JESD204B.sim/sim_1/synth/func/xsim/clk_func_synth.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module LMFC_CLK
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Project/JESD204B/JESD204B.srcs/sources_1/new/DATA_LINK.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DATA_LINK
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Project/JESD204B/JESD204B.srcs/sources_1/new/DESER.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DESER
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Project/JESD204B/JESD204B.srcs/sources_1/new/RX_DATA_LINK.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module RX_DATA_LINK
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Project/JESD204B/JESD204B.srcs/sources_1/new/RX_LMFC_CLK.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module RX_LMFC_CLK
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Project/JESD204B/JESD204B.srcs/sources_1/new/RX_TRANSPORT.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module RX_TRANSPORT
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Project/JESD204B/JESD204B.srcs/sources_1/new/SER.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module SER
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Project/JESD204B/JESD204B.srcs/sources_1/new/TRANSPORT.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module TRANSPORT
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Project/JESD204B/JESD204B.srcs/sim_1/new/clk.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module clk

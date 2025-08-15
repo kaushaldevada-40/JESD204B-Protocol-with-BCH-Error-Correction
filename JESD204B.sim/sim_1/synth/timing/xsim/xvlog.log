@@ -1,0 +1,7 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Project/JESD204B/JESD204B.sim/sim_1/synth/timing/xsim/tb_TEST_time_synth.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module TEST
+INFO: [VRFC 10-311] analyzing module clk_wiz_0
+INFO: [VRFC 10-311] analyzing module clk_wiz_0_clk_wiz
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Project/JESD204B/JESD204B.srcs/sim_1/new/tb_TEST.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_TEST

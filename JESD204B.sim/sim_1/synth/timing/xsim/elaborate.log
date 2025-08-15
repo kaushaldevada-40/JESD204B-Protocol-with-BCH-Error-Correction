@@ -1,0 +1,12 @@
+Vivado Simulator v2024.2.0
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: D:/Xilinx/Vivado/2024.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 --maxdelay -L xil_defaultlib -L simprims_ver -L secureip --snapshot tb_TEST_time_synth -transport_int_delays -pulse_r 0 -pulse_int_r 0 -pulse_e 0 -pulse_int_e 0 xil_defaultlib.tb_TEST xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 14 for port 'data_in' [D:/Project/JESD204B/JESD204B.srcs/sim_1/new/tb_TEST.v:30]
+ERROR: [VRFC 10-3236] concurrent assignment to a non-net 'data_in' is not permitted [D:/Project/JESD204B/JESD204B.srcs/sim_1/new/tb_TEST.v:30]
+ERROR: [VRFC 10-8616] 'TEST' requires 5 arguments [D:/Project/JESD204B/JESD204B.srcs/sim_1/new/tb_TEST.v:30]
+ERROR: [VRFC 10-9171] mixed concurrent and procedural assignments on 'data_in' [D:/Project/JESD204B/JESD204B.srcs/sim_1/new/tb_TEST.v:53]
+ERROR: [XSIM 43-3322] Static elaboration of top level Verilog design unit(s) in library work failed.

@@ -1,0 +1,217 @@
+(DELAYFILE 
+(SDFVERSION "3.0" )
+(DESIGN "TEST")
+(DATE "Tue Jun  3 11:30:46 2025")
+(VENDOR "XILINX")
+(PROGRAM "Vivado")
+(VERSION "2024.2")
+(DIVIDER /)
+(TIMESCALE 1ps)
+(CELL 
+  (CELLTYPE "BUFG")
+  (INSTANCE clk1/inst/clkf_buf)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I O (91.0:96.0:96.0) (91.0:96.0:96.0))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "IBUF")
+  (INSTANCE clk1/inst/clkin1_ibufg)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I O (1411.2:1481.8:1481.8) (1411.2:1481.8:1481.8))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "BUFG")
+  (INSTANCE clk1/inst/clkout1_buf)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I O (91.0:96.0:96.0) (91.0:96.0:96.0))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "BUFG")
+  (INSTANCE clk1/inst/clkout2_buf)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I O (91.0:96.0:96.0) (91.0:96.0:96.0))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "PLLE2_ADV")
+  (INSTANCE clk1/inst/plle2_adv_inst)
+    (TIMINGCHECK
+      (SETUPHOLD (posedge DEN) (posedge DCLK) (2156.0:2290.0:2290.0) (0.0:0.0:0.0))
+      (SETUPHOLD (negedge DEN) (posedge DCLK) (2156.0:2290.0:2290.0) (0.0:0.0:0.0))
+      (SETUPHOLD (posedge DWE) (posedge DCLK) (1527.0:1622.0:1622.0) (150.0:150.0:150.0))
+      (SETUPHOLD (negedge DWE) (posedge DCLK) (1527.0:1622.0:1622.0) (150.0:150.0:150.0))
+      (SETUPHOLD (posedge DI[15:0]) (posedge DCLK) (1527.0:1622.0:1622.0) (150.0:150.0:150.0))
+      (SETUPHOLD (negedge DI[15:0]) (posedge DCLK) (1527.0:1622.0:1622.0) (150.0:150.0:150.0))
+      (SETUPHOLD (posedge DADDR[6:0]) (posedge DCLK) (1527.0:1622.0:1622.0) (150.0:150.0:150.0))
+      (SETUPHOLD (negedge DADDR[6:0]) (posedge DCLK) (1527.0:1622.0:1622.0) (150.0:150.0:150.0))
+    )
+)
+(CELL 
+  (CELLTYPE "OBUF")
+  (INSTANCE data_out_OBUF\[0\]_inst)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I O (3317.3:3519.4:3519.4) (3317.3:3519.4:3519.4))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "OBUF")
+  (INSTANCE data_out_OBUF\[10\]_inst)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I O (3349.0:3551.4:3551.4) (3349.0:3551.4:3551.4))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "OBUF")
+  (INSTANCE data_out_OBUF\[11\]_inst)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I O (3328.1:3530.3:3530.3) (3328.1:3530.3:3530.3))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "OBUF")
+  (INSTANCE data_out_OBUF\[12\]_inst)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I O (3348.3:3550.7:3550.7) (3348.3:3550.7:3550.7))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "OBUF")
+  (INSTANCE data_out_OBUF\[13\]_inst)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I O (3350.7:3553.1:3553.1) (3350.7:3553.1:3553.1))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "OBUF")
+  (INSTANCE data_out_OBUF\[1\]_inst)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I O (3332.0:3534.3:3534.3) (3332.0:3534.3:3534.3))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "OBUF")
+  (INSTANCE data_out_OBUF\[2\]_inst)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I O (3349.2:3551.6:3551.6) (3349.2:3551.6:3551.6))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "OBUF")
+  (INSTANCE data_out_OBUF\[3\]_inst)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I O (3347.1:3549.5:3549.5) (3347.1:3549.5:3549.5))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "OBUF")
+  (INSTANCE data_out_OBUF\[4\]_inst)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I O (3348.3:3550.7:3550.7) (3348.3:3550.7:3550.7))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "OBUF")
+  (INSTANCE data_out_OBUF\[5\]_inst)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I O (3348.4:3550.8:3550.8) (3348.4:3550.8:3550.8))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "OBUF")
+  (INSTANCE data_out_OBUF\[6\]_inst)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I O (3351.5:3554.0:3554.0) (3351.5:3554.0:3554.0))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "OBUF")
+  (INSTANCE data_out_OBUF\[7\]_inst)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I O (3351.8:3554.3:3554.3) (3351.8:3554.3:3554.3))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "OBUF")
+  (INSTANCE data_out_OBUF\[8\]_inst)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I O (3344.2:3546.6:3546.6) (3344.2:3546.6:3546.6))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "OBUF")
+  (INSTANCE data_out_OBUF\[9\]_inst)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I O (3350.8:3553.3:3553.3) (3350.8:3553.3:3553.3))
+    )
+  )
+)
+(CELL 
+    (CELLTYPE "TEST")
+    (INSTANCE )
+    (DELAY
+      (ABSOLUTE
+      (INTERCONNECT clk1/inst/clkf_buf/O clk1/inst/plle2_adv_inst/CLKFBIN (439.0:584.0:584.0) (439.0:584.0:584.0))
+      (INTERCONNECT clk1/inst/clkin1_ibufg/O clk1/inst/plle2_adv_inst/CLKIN1 (439.0:584.0:584.0) (439.0:584.0:584.0))
+      (INTERCONNECT clk1/inst/plle2_adv_inst/CLKFBOUT clk1/inst/clkf_buf/I (762.7:802.9:802.9) (762.7:802.9:802.9))
+      (INTERCONNECT clk1/inst/plle2_adv_inst/CLKOUT0 clk1/inst/clkout1_buf/I (762.7:802.9:802.9) (762.7:802.9:802.9))
+      (INTERCONNECT clk1/inst/plle2_adv_inst/CLKOUT1 clk1/inst/clkout2_buf/I (762.7:802.9:802.9) (762.7:802.9:802.9))
+      )
+    )
+)
+)

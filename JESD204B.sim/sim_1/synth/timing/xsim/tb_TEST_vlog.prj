@@ -1,0 +1,7 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  --include "../../../../../JESD204B.ip_user_files/ipstatic" \
+"tb_TEST_time_synth.v" \
+"../../../../../JESD204B.srcs/sim_1/new/tb_TEST.v" \
+
+# Do not sort compile order
+nosort

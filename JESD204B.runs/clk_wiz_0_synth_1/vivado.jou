@@ -1,0 +1,24 @@
+#-----------------------------------------------------------
+# Vivado v2024.2 (64-bit)
+# SW Build 5239630 on Fri Nov 08 22:35:27 MST 2024
+# IP Build 5239520 on Sun Nov 10 16:12:51 MST 2024
+# SharedData Build 5239561 on Fri Nov 08 14:39:27 MST 2024
+# Start of session at: Tue Jul  1 10:01:48 2025
+# Process ID         : 11912
+# Current directory  : D:/Project/JESD204B/JESD204B.runs/clk_wiz_0_synth_1
+# Command line       : vivado.exe -log clk_wiz_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source clk_wiz_0.tcl
+# Log file           : D:/Project/JESD204B/JESD204B.runs/clk_wiz_0_synth_1/clk_wiz_0.vds
+# Journal file       : D:/Project/JESD204B/JESD204B.runs/clk_wiz_0_synth_1\vivado.jou
+# Running On         : HP-YD
+# Platform           : Windows Server 2016 or Windows 10
+# Operating System   : 26100
+# Processor Detail   : AMD Ryzen 5 4600H with Radeon Graphics         
+# CPU Frequency      : 2994 MHz
+# CPU Physical cores : 6
+# CPU Logical cores  : 12
+# Host memory        : 16495 MB
+# Swap memory        : 6710 MB
+# Total Virtual      : 23206 MB
+# Available Virtual  : 12739 MB
+#-----------------------------------------------------------
+source clk_wiz_0.tcl -notrace

@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_TEST_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="tb_TEST" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="97,210.000 ns"></ZoomStartTime>
+      <ZoomEndTime time="99,120.001 ns"></ZoomEndTime>
+      <Cursor1Time time="100,000.000 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="130"></NameColumnWidth>
+      <ValueColumnWidth column_width="72"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="64" />
+   <wave_markers>
+      <marker time="62052500" label="" />
+      <marker time="11374112" label="" />
+      <marker time="38422000" label="" />
+   </wave_markers>
+   <wvobject fp_name="/tb_TEST/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_TEST/rst" type="logic">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_TEST/sysref" type="logic">
+      <obj_property name="ElementShortName">sysref</obj_property>
+      <obj_property name="ObjectShortName">sysref</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_TEST/test1/tx1/d1/sync" type="logic">
+      <obj_property name="ElementShortName">sync</obj_property>
+      <obj_property name="ObjectShortName">sync</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_TEST/data_in" type="array">
+      <obj_property name="ElementShortName">data_in[13:0]</obj_property>
+      <obj_property name="ObjectShortName">data_in[13:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_TEST/test1/tx1/t1/tr_data_in" type="array">
+      <obj_property name="ElementShortName">tr_data_in[13:0]</obj_property>
+      <obj_property name="ObjectShortName">tr_data_in[13:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_TEST/test1/rx1/rxt1/rxtr_data_out" type="array">
+      <obj_property name="ElementShortName">rxtr_data_out[13:0]</obj_property>
+      <obj_property name="ObjectShortName">rxtr_data_out[13:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_TEST/test1/tx1/t1/oct0" type="array">
+      <obj_property name="ElementShortName">oct0[7:0]</obj_property>
+      <obj_property name="ObjectShortName">oct0[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_TEST/test1/tx1/t1/oct1" type="array">
+      <obj_property name="ElementShortName">oct1[7:0]</obj_property>
+      <obj_property name="ObjectShortName">oct1[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_TEST/test1/tx1/t1/oct" type="logic">
+      <obj_property name="ElementShortName">oct</obj_property>
+      <obj_property name="ObjectShortName">oct</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_TEST/test1/rx1/rxd1/fc" type="logic">
+      <obj_property name="ElementShortName">fc</obj_property>
+      <obj_property name="ObjectShortName">fc</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_TEST/test1/tx1/t1/tr_data_out" type="array">
+      <obj_property name="ElementShortName">tr_data_out[7:0]</obj_property>
+      <obj_property name="ObjectShortName">tr_data_out[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_TEST/test1/tx1/d1/state" type="array">
+      <obj_property name="ElementShortName">state[1:0]</obj_property>
+      <obj_property name="ObjectShortName">state[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_TEST/test1/tx1/d1/multiframe" type="array">
+      <obj_property name="ElementShortName">multiframe[3:0]</obj_property>
+      <obj_property name="ObjectShortName">multiframe[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_TEST/test1/tx1/d1/ila_flag" type="logic">
+      <obj_property name="ElementShortName">ila_flag</obj_property>
+      <obj_property name="ObjectShortName">ila_flag</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_TEST/test1/tx1/d1/oct" type="array">
+      <obj_property name="ElementShortName">oct[4:0]</obj_property>
+      <obj_property name="ObjectShortName">oct[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_TEST/test1/tx1/d1/octet1" type="array">
+      <obj_property name="ElementShortName">octet1[7:0]</obj_property>
+      <obj_property name="ObjectShortName">octet1[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_TEST/test1/tx1/d1/octet3" type="array">
+      <obj_property name="ElementShortName">octet3[7:0]</obj_property>
+      <obj_property name="ObjectShortName">octet3[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_TEST/test1/tx1/d1/indicator" type="logic">
+      <obj_property name="ElementShortName">indicator</obj_property>
+      <obj_property name="ObjectShortName">indicator</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_TEST/test1/tx1/d1/octstate" type="array">
+      <obj_property name="ElementShortName">octstate[4:0]</obj_property>
+      <obj_property name="ObjectShortName">octstate[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_TEST/test1/tx1/s1/ser_data_in" type="array">
+      <obj_property name="ElementShortName">ser_data_in[9:0]</obj_property>
+      <obj_property name="ObjectShortName">ser_data_in[9:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_TEST/test1/tx1/s1/i" type="array">
+      <obj_property name="ElementShortName">i[4:0]</obj_property>
+      <obj_property name="ObjectShortName">i[4:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_TEST/test1/tx1/s1/data_buff" type="array">
+      <obj_property name="ElementShortName">data_buff[30:0]</obj_property>
+      <obj_property name="ObjectShortName">data_buff[30:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_TEST/test1/tx1/s1/ser_data_out" type="logic">
+      <obj_property name="ElementShortName">ser_data_out</obj_property>
+      <obj_property name="ObjectShortName">ser_data_out</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_TEST/test1/rx1/ds1/deser_data_in" type="logic">
+      <obj_property name="ElementShortName">deser_data_in</obj_property>
+      <obj_property name="ObjectShortName">deser_data_in</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_TEST/test1/rx1/ds1/i" type="array">
+      <obj_property name="ElementShortName">i[4:0]</obj_property>
+      <obj_property name="ObjectShortName">i[4:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_TEST/test1/rx1/ds1/data_buff1" type="array">
+      <obj_property name="ElementShortName">data_buff1[30:0]</obj_property>
+      <obj_property name="ObjectShortName">data_buff1[30:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_TEST/test1/rx1/ds1/data_buff2" type="array">
+      <obj_property name="ElementShortName">data_buff2[30:0]</obj_property>
+      <obj_property name="ObjectShortName">data_buff2[30:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_TEST/test1/rx1/ds1/flipbit" type="array">
+      <obj_property name="ElementShortName">flipbit[30:0]</obj_property>
+      <obj_property name="ObjectShortName">flipbit[30:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_TEST/test1/rx1/ds1/deser_data_out" type="array">
+      <obj_property name="ElementShortName">deser_data_out[9:0]</obj_property>
+      <obj_property name="ObjectShortName">deser_data_out[9:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_TEST/test1/rx1/rxd1/rxdl_data_in" type="array">
+      <obj_property name="ElementShortName">rxdl_data_in[9:0]</obj_property>
+      <obj_property name="ObjectShortName">rxdl_data_in[9:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_TEST/test1/rx1/rxd1/nextflag" type="logic">
+      <obj_property name="ElementShortName">nextflag</obj_property>
+      <obj_property name="ObjectShortName">nextflag</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_TEST/test1/rx1/rxd1/state" type="array">
+      <obj_property name="ElementShortName">state[1:0]</obj_property>
+      <obj_property name="ObjectShortName">state[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_TEST/test1/rx1/rxd1/data_buff" type="array">
+      <obj_property name="ElementShortName">data_buff[7:0]</obj_property>
+      <obj_property name="ObjectShortName">data_buff[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_TEST/test1/rx1/rxd1/cas" type="logic">
+      <obj_property name="ElementShortName">cas</obj_property>
+      <obj_property name="ObjectShortName">cas</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_TEST/test1/rx1/rxd1/ila_frame" type="array">
+      <obj_property name="ElementShortName">ila_frame[2:0]</obj_property>
+      <obj_property name="ObjectShortName">ila_frame[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_TEST/test1/rx1/rxd1/kcnt" type="array">
+      <obj_property name="ElementShortName">kcnt[7:0]</obj_property>
+      <obj_property name="ObjectShortName">kcnt[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_TEST/test1/rx1/rxd1/octcnt" type="array">
+      <obj_property name="ElementShortName">octcnt[1:0]</obj_property>
+      <obj_property name="ObjectShortName">octcnt[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_TEST/test1/rx1/rxd1/oct" type="array">
+      <obj_property name="ElementShortName">oct[5:0]</obj_property>
+      <obj_property name="ObjectShortName">oct[5:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_TEST/test1/rx1/rxd1/octstate" type="array">
+      <obj_property name="ElementShortName">octstate[4:0]</obj_property>
+      <obj_property name="ObjectShortName">octstate[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_TEST/test1/rx1/rxd1/octet2" type="array">
+      <obj_property name="ElementShortName">octet2[7:0]</obj_property>
+      <obj_property name="ObjectShortName">octet2[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_TEST/test1/rx1/rxd1/octet4" type="array">
+      <obj_property name="ElementShortName">octet4[7:0]</obj_property>
+      <obj_property name="ObjectShortName">octet4[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_TEST/test1/rx1/rxd1/indicator" type="logic">
+      <obj_property name="ElementShortName">indicator</obj_property>
+      <obj_property name="ObjectShortName">indicator</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_TEST/test1/rx1/rxd1/oct1" type="logic">
+      <obj_property name="ElementShortName">oct1</obj_property>
+      <obj_property name="ObjectShortName">oct1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_TEST/test1/rx1/rxd1/ind" type="logic">
+      <obj_property name="ElementShortName">ind</obj_property>
+      <obj_property name="ObjectShortName">ind</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_TEST/test1/rx1/rxd1/rx_valid" type="logic">
+      <obj_property name="ElementShortName">rx_valid</obj_property>
+      <obj_property name="ObjectShortName">rx_valid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_TEST/test1/rx1/rxd1/rxdl_data_out" type="array">
+      <obj_property name="ElementShortName">rxdl_data_out[7:0]</obj_property>
+      <obj_property name="ObjectShortName">rxdl_data_out[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_TEST/test1/rx1/rxt1/rxtr_data_in" type="array">
+      <obj_property name="ElementShortName">rxtr_data_in[7:0]</obj_property>
+      <obj_property name="ObjectShortName">rxtr_data_in[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_TEST/test1/rx1/rxt1/oct" type="logic">
+      <obj_property name="ElementShortName">oct</obj_property>
+      <obj_property name="ObjectShortName">oct</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_TEST/test1/rx1/rxt1/oct1" type="array">
+      <obj_property name="ElementShortName">oct1[7:0]</obj_property>
+      <obj_property name="ObjectShortName">oct1[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_TEST/test1/rx1/rxt1/oct2" type="array">
+      <obj_property name="ElementShortName">oct2[7:0]</obj_property>
+      <obj_property name="ObjectShortName">oct2[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_TEST/test1/rx1/rxd1/rflag" type="logic">
+      <obj_property name="ElementShortName">rflag</obj_property>
+      <obj_property name="ObjectShortName">rflag</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_TEST/test1/rx1/rxd1/kflag" type="logic">
+      <obj_property name="ElementShortName">kflag</obj_property>
+      <obj_property name="ObjectShortName">kflag</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_TEST/test1/rx1/rxd1/qflag" type="logic">
+      <obj_property name="ElementShortName">qflag</obj_property>
+      <obj_property name="ObjectShortName">qflag</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_TEST/test1/rx1/rxd1/fflag" type="logic">
+      <obj_property name="ElementShortName">fflag</obj_property>
+      <obj_property name="ObjectShortName">fflag</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_TEST/test1/rx1/rxd1/aflag" type="logic">
+      <obj_property name="ElementShortName">aflag</obj_property>
+      <obj_property name="ObjectShortName">aflag</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_TEST/test1/rx1/rxd1/main" type="array">
+      <obj_property name="ElementShortName">main[2:0]</obj_property>
+      <obj_property name="ObjectShortName">main[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_TEST/test1/rx1/rxd1/base" type="array">
+      <obj_property name="ElementShortName">base[5:0]</obj_property>
+      <obj_property name="ObjectShortName">base[5:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_TEST/test1/rx1/rxd1/k4flag" type="logic">
+      <obj_property name="ElementShortName">k4flag</obj_property>
+      <obj_property name="ObjectShortName">k4flag</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_TEST/test1/rx1/rxd1/k8flag" type="logic">
+      <obj_property name="ElementShortName">k8flag</obj_property>
+      <obj_property name="ObjectShortName">k8flag</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_TEST/test1/rx1/rxd1/ila_done" type="logic">
+      <obj_property name="ElementShortName">ila_done</obj_property>
+      <obj_property name="ObjectShortName">ila_done</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_TEST/test1/rx1/rxd1/cas" type="logic">
+      <obj_property name="ElementShortName">cas</obj_property>
+      <obj_property name="ObjectShortName">cas</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_TEST/test1/clk1/clk_100" type="logic">
+      <obj_property name="ElementShortName">clk_100</obj_property>
+      <obj_property name="ObjectShortName">clk_100</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_TEST/test1/clk1/clk_5" type="logic">
+      <obj_property name="ElementShortName">clk_5</obj_property>
+      <obj_property name="ObjectShortName">clk_5</obj_property>
+   </wvobject>
+</wave_config>

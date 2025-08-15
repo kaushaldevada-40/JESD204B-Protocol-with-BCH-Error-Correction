@@ -1,0 +1,40 @@
+Vivado Simulator v2024.2.0
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: D:/Xilinx/Vivado/2024.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot tb_TEST_behav xil_defaultlib.tb_TEST xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-3705] select index 6 into 'A' is out of bounds [D:/Project/JESD204B/JESD204B.srcs/sources_1/new/DESER.v:153]
+WARNING: [VRFC 10-3705] select index 7 into 'A' is out of bounds [D:/Project/JESD204B/JESD204B.srcs/sources_1/new/DESER.v:154]
+WARNING: [VRFC 10-3705] select index 6 into 'C' is out of bounds [D:/Project/JESD204B/JESD204B.srcs/sources_1/new/DESER.v:161]
+WARNING: [VRFC 10-3705] select index 7 into 'C' is out of bounds [D:/Project/JESD204B/JESD204B.srcs/sources_1/new/DESER.v:162]
+WARNING: [VRFC 10-3705] select index 6 into 'B' is out of bounds [D:/Project/JESD204B/JESD204B.srcs/sources_1/new/DESER.v:169]
+WARNING: [VRFC 10-3705] select index 7 into 'B' is out of bounds [D:/Project/JESD204B/JESD204B.srcs/sources_1/new/DESER.v:170]
+WARNING: [VRFC 10-3705] select index 6 into 'A' is out of bounds [D:/Project/JESD204B/JESD204B.srcs/sources_1/new/DESER.v:195]
+WARNING: [VRFC 10-3705] select index 7 into 'A' is out of bounds [D:/Project/JESD204B/JESD204B.srcs/sources_1/new/DESER.v:196]
+WARNING: [VRFC 10-3705] select index 6 into 'B' is out of bounds [D:/Project/JESD204B/JESD204B.srcs/sources_1/new/DESER.v:226]
+WARNING: [VRFC 10-3705] select index 7 into 'B' is out of bounds [D:/Project/JESD204B/JESD204B.srcs/sources_1/new/DESER.v:227]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module unisims_ver.BUFG
+Compiling module unisims_ver.IBUF
+Compiling module unisims_ver.MMCME2_ADV(CLKFBOUT_MULT_F=31.0,...
+Compiling module unisims_ver.x_lut1_mux2
+Compiling module unisims_ver.LUT1(INIT=2'b01)
+Compiling module xil_defaultlib.clk_wiz_0_clk_wiz
+Compiling module xil_defaultlib.clk_wiz_0
+Compiling module xil_defaultlib.TRANSPORT
+Compiling module xil_defaultlib.DATA_LINK
+Compiling module xil_defaultlib.SER
+Compiling module xil_defaultlib.TOP
+Compiling module xil_defaultlib.DESER
+Compiling module xil_defaultlib.Data_Link_RX
+Compiling module xil_defaultlib.RX_TRANSPORT
+Compiling module xil_defaultlib.BOTTOM
+Compiling module xil_defaultlib.TEST
+Compiling module xil_defaultlib.tb_TEST
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot tb_TEST_behav
